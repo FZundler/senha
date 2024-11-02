@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff; /* Fundo escuro */
+    --foreground: #f0f0f0; /* Texto claro */
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Tamanho de fonte menor para telas pequenas */
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        font-size: 16px; /* Tamanho de fonte maior para telas maiores */
+    }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Classe para o rodapé */
+  .footer-container {
+    max-width: 100%; /* Limita a largura para 100% da tela */
+    overflow-y: auto; /* Permite rolagem vertical */
+    overflow-x: hidden; /* Esconde rolagem horizontal */
+    margin: 0 auto; /* Centraliza o rodapé */
+    padding: 1rem; /* Espaçamento interno, ajuste conforme necessário */
+  }
+
+  /* Estilizando imagens dentro do rodapé */
+  .footer-container img {
+    max-width: 100%; /* Faz com que as imagens não ultrapassem a largura do container */
+    height: auto; /* Mantém a proporção das imagens */
+  }
+
+  /* Opcional: garantir que os textos não quebrem a largura */
+  .footer-container p {
+    white-space: nowrap; /* Impede que o texto quebre em linhas */
+    overflow: hidden; /* Esconde qualquer excesso */
+    text-overflow: ellipsis; /* Adiciona reticências para excesso de texto */
+  }
+}
