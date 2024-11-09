@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.7.7",
+=======
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",

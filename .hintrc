@@ -6,8 +6,13 @@
     "axe/name-role-value": [
       "default",
       {
+<<<<<<< HEAD
         "link-name": "off",
         "button-name": "off"
+=======
+        "button-name": "off",
+        "link-name": "off"
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
       }
     ]
   }

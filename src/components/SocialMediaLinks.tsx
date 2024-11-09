@@ -2,6 +2,10 @@
 import React from "react";
 import {
   FaFacebook,
+<<<<<<< HEAD
+=======
+  FaTwitter,
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
   FaInstagram,
   FaLinkedin,
   FaYoutube,

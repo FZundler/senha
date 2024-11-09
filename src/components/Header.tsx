@@ -14,10 +14,17 @@ export function Header() {
 
                     {/* Login, Cadastro e WhatsApp */}
                     <div className="flex max-w-xl justify-between container items-center">
+<<<<<<< HEAD
                         <Link href="/login" className="no-underline bg-white-400 text-black font-bold text-base hover:text-blue-700 py-2 ms-72 px-4 rounded-lg">
                             LOGIN
                         </Link>
                         <Link href="/register" className="no-underline bg-Amarelo w-44 px-0 rounded-full hover:text-blue-700 text-black text-xl text-center font-bold py-2">
+=======
+                        <Link href="/buy" className="bg-white-400 text-black font-bold text-base hover:text-blue-700 py-2 ms-72 px-4 rounded-lg">
+                            LOGIN
+                        </Link>
+                        <Link href="/buy" className="bg-Amarelo w-44 px-0 rounded-full hover:text-blue-700 text-black text-xl text-center font-bold py-2">
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
                             Cadastre-se
                         </Link>
                     </div>
@@ -27,6 +34,7 @@ export function Header() {
             {/* Navigation Menu */}
             <div className="w-screen bg-gray-100">
               {/* Imagem de fundo à esquerda */}
+<<<<<<< HEAD
               <div className="absolute left-0 top-0 h-full w-1/3 bg-[url('/homem.png')] bg-no-repeat bg-cover opacity-40 translate-y-[133px] translate-x-[70px]"></div>
 
                 <div className="max-w-screen-xl mx-auto flex items-center justify-between">
@@ -46,6 +54,17 @@ export function Header() {
                                 Serviços
                             </Link>
                         </li>
+=======
+                    
+              <div className="absolute left-0 top-0 h-full w-1/3 bg-[url('/homem.png')] bg-no-repeat bg-cover opacity-40 translate-y-[133px] translate-x-[70px]"></div>
+
+
+                <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+                    <ul className="flex justify-center space-x-8 py-4">
+                        <li><Link href="/" className="text-gray-700 hover:text-blue-700 font-bold">Principal</Link></li>
+                        <li><Link href="/about" className="text-gray-700 hover:text-blue-700 font-bold">Suporte</Link></li>
+                        <li><Link href="/pages" className="text-gray-700 hover:text-blue-700 font-bold">Serviços</Link></li>
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
                     </ul>
                     
                     <form className="max-w-xl container rounded-full">
@@ -63,10 +82,19 @@ export function Header() {
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                                 </svg>
                             </button>
+<<<<<<< HEAD
                         </div>
+=======
+                            </div>
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
                     </form>
                 </div>
               </div>
         </header>
+<<<<<<< HEAD
+=======
+
+        
+>>>>>>> f4e5f81400da1e5b6c48c77841eeffd4ef44c4db
     );
 }
